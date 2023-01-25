@@ -1,4 +1,4 @@
-package com.example.mynewproject.on_boarding;
+package com.example.mynewproject.complete_profile;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,12 +11,12 @@ import androidx.fragment.app.Fragment;
 
 import com.example.mynewproject.R;
 
-public class OnBoarding1 extends Fragment {
+public class CP5 extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.onboading1_fragment, container, false);
+        View view = inflater.inflate(R.layout.complete_profile5, container, false);
         return view;
     }
 }

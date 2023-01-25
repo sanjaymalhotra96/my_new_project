@@ -8,10 +8,10 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 import java.util.ArrayList;
 
-public class CompletProfileAdaptor extends FragmentStateAdapter {
+public class CPPagerAdaptor extends FragmentStateAdapter {
     private ArrayList<Fragment> fragmentList = new ArrayList<>();
 
-    public CompletProfileAdaptor(FragmentManager supportFragmentManager, Lifecycle lifecycle) {
+    public CPPagerAdaptor(FragmentManager supportFragmentManager, Lifecycle lifecycle) {
         super(supportFragmentManager, lifecycle);
     }
 

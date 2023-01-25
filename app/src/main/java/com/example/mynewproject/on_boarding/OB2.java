@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.mynewproject.R;
 
-public class OnBoarding2 extends Fragment {
+public class OB2 extends Fragment {
 
     @Nullable
     @Override

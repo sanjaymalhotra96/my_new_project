@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.mynewproject.R;
 
-public class CompleteProfile2 extends Fragment {
+public class CP2 extends Fragment {
 
     @Nullable
     @Override

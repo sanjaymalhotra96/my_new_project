@@ -9,12 +9,37 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyNewProject">
-       <!-- <activity
-            android:name=".complete_profile.CompleteProfile"
-            android:exported="false" />-->
+        android:theme="@style/Theme.MyNewProject"
+        tools:node="merge"
+        tools:replace="android:allowBackup">
         <activity
-            android:name=".activities.VerifyActivity"
+            android:name=".writing.essay.essay.EssayActivity"
+            android:exported="false" />
+        <!--
+        <activity
+            android:name=".writing.graphs.GraphsActivity"
+            android:exported="false" />
+        -->
+        <!--
+          <activity
+            android:name=".writing.essay.EssayActivity"
+            android:exported="false" />
+        -->
+        <!--
+          <activity
+            android:name=".activities.HomeActivity"
+            android:exported="false" />
+        -->
+        <activity
+            android:name=".activities.EnterPasscodeActivity"
+            android:exported="false" />
+        <!--
+         <activity
+            android:name=".complete_profile.CompleteProfile"
+            android:exported="false" />
+        -->
+        <activity
+            android:name=".activities.OtpActivity"
             android:exported="false" />
         <activity
             android:name=".activities.LoginActivity"
@@ -25,8 +50,9 @@
             android:exported="false" />
         -->
         <activity
-            android:name=".complete_profile.CompleteProfile"
+            android:name=".writing.graphs.GraphsActivity"
             android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar"
             tools:ignore="DuplicateActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

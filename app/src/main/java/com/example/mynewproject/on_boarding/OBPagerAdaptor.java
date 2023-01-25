@@ -12,10 +12,10 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 import java.util.ArrayList;
 
-public class MyAdaptor2 extends FragmentStateAdapter {
+public class OBPagerAdaptor extends FragmentStateAdapter {
     private ArrayList<Fragment> fragmentList = new ArrayList<>();
 
-    public MyAdaptor2(FragmentManager supportFragmentManager, Lifecycle lifecycle) {
+    public OBPagerAdaptor(FragmentManager supportFragmentManager, Lifecycle lifecycle) {
         super(supportFragmentManager, lifecycle);
     }
 

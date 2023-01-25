@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.example.mynewproject.R;
 
-public class VerifyActivity extends AppCompatActivity {
+public class OtpActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

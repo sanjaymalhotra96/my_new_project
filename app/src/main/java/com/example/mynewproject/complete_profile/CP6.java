@@ -11,12 +11,12 @@ import androidx.fragment.app.Fragment;
 
 import com.example.mynewproject.R;
 
-public class CompleteProfile1 extends Fragment {
+public class CP6 extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.complete_profile1, container, false);
+        View view = inflater.inflate(R.layout.complete_profile6, container, false);
         return view;
     }
 }

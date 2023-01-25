@@ -6,14 +6,13 @@ import androidx.viewpager2.widget.ViewPager2;
 import android.os.Bundle;
 
 import com.example.mynewproject.R;
-import com.google.android.material.tabs.TabLayout;
 
 import me.relex.circleindicator.CircleIndicator3;
 
-public class OnBoardingActivity extends AppCompatActivity {
+public class OBActivity extends AppCompatActivity {
     ViewPager2 viewpager;
     CircleIndicator3 indicator;
-    MyAdaptor2 myAdapter;
+    OBPagerAdaptor myAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,12 +20,12 @@ public class OnBoardingActivity extends AppCompatActivity {
 
        viewpager =findViewById(R.id.viewpager);
        indicator =findViewById(R.id.indicator);
-        myAdapter = new MyAdaptor2(getSupportFragmentManager(), getLifecycle());
+        myAdapter = new OBPagerAdaptor(getSupportFragmentManager(), getLifecycle());
 
         // add Fragments in your ViewPagerFragmentAdapter class
-        myAdapter.addFragment(new OnBoarding1());
-        myAdapter.addFragment(new OnBoarding2());
-        myAdapter.addFragment(new OnBoarding3());
+        myAdapter.addFragment(new OB1());
+        myAdapter.addFragment(new OB2());
+        myAdapter.addFragment(new OB3());
 
         viewpager.setAdapter(myAdapter);
 
