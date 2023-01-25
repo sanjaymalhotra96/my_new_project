@@ -12,45 +12,90 @@
         android:theme="@style/Theme.MyNewProject"
         tools:node="merge"
         tools:replace="android:allowBackup">
+       <!-- <activity
+            android:name=".activities.ListeningActivity"
+            android:exported="false" />-->
+        <!--
+          <activity
+            android:name=".activities.VedioViewActivity"
+            android:exported="false" />
+        -->
+        <!--
+          <activity
+            android:name=".activities.LiveClassess"
+            android:exported="false" />
+        -->
+        <!--
+         <activity
+            android:name=".activities.VideoCourses"
+            android:exported="false" />
+        -->
+        <activity
+            android:name=".vocabulary.Vocabulary"
+            android:exported="false" />
+        <!--
+          <activity
+            android:name=".listening.Listening"
+            android:exported="false" />
+        -->
+        <!--
+          <activity
+            android:name=".reading.ReadingActivity"
+            android:exported="false" />
+        -->
+        <!--
+          <activity
+            android:name=".speaking.cuecards.CureCardRecording"
+            android:exported="false" />
+        -->
+        <!--
+         <activity
+            android:name=".speaking.cuecards.CueCards1"
+            android:exported="false" />
+        -->
+        <!--
+             <activity
+            android:name=".speaking.intoduction.Introduction"
+            android:exported="false" />
+        -->
+        <activity
+            android:name=".writing.answer.EditAnswer"
+            android:exported="false" />
+        <activity
+            android:name=".writing.answer.AnswerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".writing.graphs.graphs.GraphsActivity"
+            android:exported="false" />
         <activity
             android:name=".writing.essay.essay.EssayActivity"
             android:exported="false" />
-        <!--
         <activity
             android:name=".writing.graphs.GraphsActivity"
             android:exported="false" />
-        -->
-        <!--
-          <activity
+        <activity
             android:name=".writing.essay.EssayActivity"
             android:exported="false" />
-        -->
-        <!--
-          <activity
+        <activity
             android:name=".activities.HomeActivity"
             android:exported="false" />
-        -->
         <activity
             android:name=".activities.EnterPasscodeActivity"
             android:exported="false" />
-        <!--
-         <activity
-            android:name=".complete_profile.CompleteProfile"
+        <activity
+            android:name=".complete_profile.CPActivity"
             android:exported="false" />
-        -->
         <activity
             android:name=".activities.OtpActivity"
             android:exported="false" />
         <activity
             android:name=".activities.LoginActivity"
             android:exported="false" />
-        <!--
-            <activity
-            android:name=".on_boarding.OnBoardingActivity"
-            android:exported="false" />
-        -->
         <activity
-            android:name=".writing.graphs.GraphsActivity"
+            android:name=".on_boarding.OBActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.VedioViewActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBar"
             tools:ignore="DuplicateActivity">
