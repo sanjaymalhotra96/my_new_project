@@ -4,11 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1675" />
+        <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/drawable-v24/ic_test.xml" value="0.179" />
         <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1675" />
+        <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/drawable/ic_test.xml" value="0.179" />
         <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/activity_complete_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/activity_home.xml" value="0.18" />
         <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/activity_on_boarding.xml" value="0.20416666666666666" />
+        <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/activity_passcode.xml" value="0.20416666666666666" />
         <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
         <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/activity_verify.xml" value="0.20416666666666666" />
         <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/complete_profile1.xml" value="0.20416666666666666" />
@@ -18,9 +22,15 @@
         <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/complete_profile5.xml" value="0.20416666666666666" />
         <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/complete_profile6.xml" value="0.20416666666666666" />
         <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/complete_profile_recyclerview.xml" value="0.20416666666666666" />
+        <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/fragment_community.xml" value="0.20416666666666666" />
+        <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/fragment_explore.xml" value="0.5" />
+        <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/fragment_mock_test.xml" value="0.20416666666666666" />
+        <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/fragment_prepare.xml" value="0.20416666666666666" />
+        <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/fragment_videos.xml" value="0.20416666666666666" />
         <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/onboading1_fragment.xml" value="0.20416666666666666" />
         <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/onboading2_fragment.xml" value="0.20416666666666666" />
         <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/layout/onboading3_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/DfavoProjects/MyNewProject/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
